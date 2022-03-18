@@ -48,6 +48,6 @@ function deleteCheck(e){
     }
     if(e.target.classList[0]=== "complete-btn"){
         const todo = e.target.parentElement;
-        todo.classList.toggle("complete");
+        todo.classList.toggle("completed");
     }
 }
